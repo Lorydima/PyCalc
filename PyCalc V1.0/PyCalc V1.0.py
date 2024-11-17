@@ -1,4 +1,4 @@
-#PyCalc V1.0  Date: 09/11/2024 Developer: Lorenzo Di Marzo
+#PyCalc V1.0  Date: 09/11/2024 Developer: Lorydima
 
 #Libraries for app Dev.
 import math
@@ -15,7 +15,7 @@ def open_credit_window():
     credit_window.configure(bg="#1E1E1E")
     credit_window.resizable(False, False)
     credit_window.iconbitmap(logo_path)
-    credit_label = Label(credit_window, text="PyCalc Version 1.0\nDeveloper: Lorenzo Di Marzo", font=("Arial", 12), bg="#1E1E1E", fg="white")
+    credit_label = Label(credit_window, text="PyCalc Version 1.0\nDeveloper: Lorydima", font=("Arial", 12), bg="#1E1E1E", fg="white")
     credit_label.pack(pady=50)
 
 #Calculator Functions
